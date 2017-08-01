@@ -6,16 +6,16 @@
       <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/pure-min.css" />
       <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/grids-responsive-min.css" />
       <!--link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/menus-min.css" /-->
-      <link rel="stylesheet" type="text/css" href="/recursos/assets/fonts/css/iconim.css" />
-      <link rel="stylesheet" type="text/css" href="https://libreim.github.io/assets/css/default.css" />
-      <link rel="stylesheet" type="text/css" href="https://libreim.github.io/assets/css/pygments-friendly.css" />
-      <link rel="alternate" type="application/rss+xml" title="RSS" href="https://libreim.github.io/assets/feed.xml" />
+      <link rel="stylesheet" type="text/css" href="/assets/fonts/css/iconim.css" />
+      <link rel="stylesheet" type="text/css" href="/assets/css/default.css" />
+      <link rel="stylesheet" type="text/css" href="/assets/css/pygments-friendly.css" />
+      <link rel="alternate" type="application/rss+xml" title="RSS" href="/assets/feed.xml" />
 
       <!-- Favicon -->
-      <link rel="shortcut icon" type="image/x-icon" href="https://libreim.github.io/assets/images/favicon.ico" />
-      <link rel="apple-touch-icon" sizes="160x160" href="https://libreim.github.io/assets/images/favicon-160.png">
+      <link rel="shortcut icon" type="image/x-icon" href="/assets/images/favicon.ico" />
+      <link rel="apple-touch-icon" sizes="160x160" href="/assets/images/favicon-160.png">
     	<meta name="msapplication-TileColor" content="#FFFFFF">
-    	<meta name="msapplication-TileImage" content="https://libreim.github.io/assets/images/favicon-160.png">
+    	<meta name="msapplication-TileImage" content="/assets/images/favicon-160.png">
       <meta name="theme-color" content="#6789ab">
 
       <script src="//ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js"></script>
@@ -38,7 +38,7 @@
       </script>
       <title>Nuevo recurso - libreim</title>
    </head>
-   <body>
+   <body class="">
       <header>
   <div class="pure-menu pure-menu-horizontal pure-g">
     <div class="pure-u-1-24 pure-u-md-1-24 pure-u-lg-1-5"></div>
@@ -66,7 +66,7 @@
       
       
       <div class="breadcrumbs category">
-  <a href="/recursos/">recursos</a><span class="separator"></span>
+  <a href="/recursos">recursos</a><span class="separator"></span>
   
   
   
@@ -78,7 +78,7 @@
       
       <h1>
         
-        <a href="/recursos/new/">
+        <a href="/new/">
           Nuevo recurso
         </a>
         
@@ -92,9 +92,10 @@
   <input name="message" placeholder="commit" hidden />
   <div class="pure-g">
     <fieldset class="pure-group pure-u-1 pure-u-md-1-2 pure-u-lg-1-2">
-      <input name="title" placeholder="Título del recurso" class="pure-input-1 title-field" />
+      <input name="title" placeholder="Título del recurso" class="pure-input-1 title-field" required />
       <input name="link" placeholder="Enlace al recurso" class="pure-input-1" />
       <input name="author" placeholder="Autor(a)" class="pure-input-1" />
+      <input name="license" placeholder="Licencia" class="pure-input-1" />
     </fieldset>
 
     <fieldset class="pure-group pure-u-1 pure-u-md-1 pure-u-lg-1">
@@ -125,26 +126,26 @@
     </p>
     
     <figure class="fig">
-      <img src="/recursos/assets/images/new-resource-1-fork.jpeg" />
+      <img src="/assets/images/new-resource-1-fork.jpeg" />
       Primero, confirma que quieres hacer un fork del repositorio.
     </figure>
 
     <figure class="fig">
 
-      <img src="/recursos/assets/images/new-resource-2-propose.jpeg" />
+      <img src="/assets/images/new-resource-2-propose.jpeg" />
       Después, propón el nuevo archivo (los datos estarán rellenos, no tienes que hacer nada más).
     </figure>
 
     <figure class="fig">
-      <img src="/recursos/assets/images/new-resource-3-compare.jpeg" />
-      <img src="/recursos/assets/images/new-resource-4-create.jpeg" />
+      <img src="/assets/images/new-resource-3-compare.jpeg" />
+      <img src="/assets/images/new-resource-4-create.jpeg" />
       Finalmente, crea la <em>pull request</em>.
     </figure>
 </p>
 </details>
 </form>
 
-<script type="text/javascript" src="/recursos/assets/js/new.js"></script>
+<script type="text/javascript" src="/assets/js/new.js"></script>
 
       
     </article>
@@ -179,6 +180,6 @@
 </footer>
 
 
-      <script id="dsq-count-scr" src="//dgiim.disqus.com/count.js" async></script>
+      <!--script id="dsq-count-scr" src="//dgiim.disqus.com/count.js" async></script-->
    </body>
 </html>

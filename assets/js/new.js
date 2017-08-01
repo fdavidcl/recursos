@@ -9,13 +9,13 @@ var filename = function(title) {
 }
 
 
-var yml = function(title, link, author, tag, content) {
+var yml = function(title, link, author, tag, license, content) {
   var template = `---
 title: ${title}
 author: ${author}
-link: ${link}
-tags:
-- ${tag}
+link: "${link}"
+tags: [${tag}]
+license: ${license}
 ---
 
 ${content}
@@ -35,6 +35,7 @@ form.onsubmit = function(event) {
     form.querySelector("[name='title']").value,
     form.querySelector("[name='link']").value,
     form.querySelector("[name='author']").value,
+    form.querySelector("[name='license']").value,
     form.querySelector("[name='tag']").value,
     form.querySelector("[name='content']").value
   );

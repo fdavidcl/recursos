@@ -1,8 +1,8 @@
 title: libreim
 
 # theme: minima
-baseurl: /recursos
-assets_path: "https://libreim.github.io/assets"
+baseurl: ""
+assets_path: /assets
 
 locale: "es"
 permalink: pretty
@@ -14,7 +14,7 @@ exclude:
 
 
 # Tag configuration
-tag_dir: ""
+tag_dir: "/t"
 tag_title_prefix: ""
 tag_title_suffix: ""
 

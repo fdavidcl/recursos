@@ -33,6 +33,10 @@ exclude:
 tag_dir: "/t"
 tag_title_prefix: ""
 tag_title_suffix: ""
+category_collection: "blog"
+category_dir: "/c"
+category_title_prefix: ""
+category_title_suffix: ""
 
 defaults:
   -
@@ -40,6 +44,12 @@ defaults:
       path: "_posts" # an empty string here means all files in the project
     values:
       layout: "post"
+      side: true
+  - scope:
+      path: "_blog"
+    values:
+      layout: "post"
+      side: true
 
 collections:
   blog:

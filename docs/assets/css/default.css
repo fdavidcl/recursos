@@ -100,6 +100,8 @@ header {
 /*** Posts ***/
 article {
   margin-bottom: 1.8rem; }
+  article.post {
+    padding-bottom: 1rem; }
   article p, article ul, article .post-content {
     line-height: 1.6em; }
   article .category {
@@ -428,7 +430,7 @@ a.pure-button-primary, input.pure-button-primary, button.pure-button-primary {
 .title-field {
   font-size: 2rem; }
 
-p.em {
+.em {
   color: #909090;
   font-size: 0.9rem;
   font-style: italic; }

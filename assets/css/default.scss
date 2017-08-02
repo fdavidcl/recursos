@@ -168,6 +168,10 @@ article {
     // padding-top: 1.4rem;
     margin-bottom: 1.8rem;
 
+    &.post {
+        padding-bottom: 1rem;
+    }
+
     p, ul, .post-content {
         line-height: 1.6em;
     }
@@ -677,7 +681,7 @@ a.pure-button-primary, input.pure-button-primary, button.pure-button-primary {
     font-size: 2rem;
 }
 
-p.em {
+.em {
     color: lighten($foreground, 25%);
     font-size: 0.9rem;
     font-style: italic;

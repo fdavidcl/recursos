@@ -7,6 +7,22 @@ assets_path: /assets
 locale: "es"
 permalink: pretty
 
+markdown: kramdown
+kramdown:
+  parse_span_html: false
+highlighter: rouge
+
+plugins:
+  - octopress-paginate
+#  - jemoji
+#  - jekyll-gist
+
+pagination:
+  per_page: 5
+  limit: false
+  permalink: /page/:num/
+  title_suffix: ""
+
 exclude:
   - LICENSE
   - Gemfile
@@ -24,3 +40,7 @@ defaults:
       path: "_posts" # an empty string here means all files in the project
     values:
       layout: "post"
+
+collections:
+  blog:
+    output: true

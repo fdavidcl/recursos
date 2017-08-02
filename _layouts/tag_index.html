@@ -16,7 +16,7 @@ tag_prefix: true
       {% endif %}
       {{ post.title }}
     </a>
-    {{ post.content }}
+    {{ post.content | markdownify }}
   </p>
   <span class="post-data">
     {% for author in post.authors %}

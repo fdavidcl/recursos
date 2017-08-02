@@ -16,10 +16,10 @@ construido sobre un intérprete del lenguaje
 del editor constituye un comando sobre el intérprete, por lo que podemos reescribir sus
 comandos o crear nuevos comandos simplemente programando sobre el intérprete.
 
-{: .fig.med}
-![](https://github.com/libreim/blog/raw/site/images/emacs.png)
-Emacs editando este mismo artículo
-
+{% include figure 
+     size="med"
+     path="emacs.png"
+     caption="Emacs editando este mismo artículo" %}
 
 Emacs sirve como IDE para la mayoría de lenguajes de programación, como
 editor para programación literaria y ciencia reproducible; se integra con git y
@@ -231,10 +231,11 @@ Especialmente útil para matemáticas es la
 y el poder incluir los paquetes de la [AMS](ftp://ftp.ams.org/pub/tex/doc/amsmath/amsldoc.pdf)
 para marcar teoremas o definiciones.
 
-{: .fig.med}
-![](https://github.com/libreim/blog/raw/site/images/org-math.png)
-Apuntes de matemáticas en org-mode
-
+{% include figure 
+     size="med"
+     path="org-math.png"
+     caption="Apuntes de matemáticas en org-mode" %}
+     
 ### magit
 
 **magit** permite integrar Emacs con **git** fácilmente para incluir los commits desde

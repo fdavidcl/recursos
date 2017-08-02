@@ -76,8 +76,10 @@ a custom command becomes
 Which-key
 ---------
 
-![]({{ site.baseurl }}/images/emacs-which-key.png)
-{: .fig.med}
+{% include figure 
+     size="large"
+     path="emacs-which-key.png"
+     caption="Which-key interface" %}
 
 [Which-key](https://github.com/justbur/emacs-which-key) displays the key
 bindings following your currently entered incomplete command. That way,
